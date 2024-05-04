@@ -1,0 +1,593 @@
+-- ESKID SIKER
+if game.Players.LocalPlayer.PlayerGui:FindFirstChild("ESKID") then
+	game.Players.LocalPlayer.PlayerGui:FindFirstChild("ESKID"):Destroy()
+end
+
+local ESKID = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local UICorner_2 = Instance.new("UICorner")
+local Frame_5 = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local sekmebuttons = Instance.new("Frame")
+local UICorner_3 = Instance.new("UICorner")
+local frame = Instance.new("Frame")
+local List = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local SM = Instance.new("TextButton")
+local PlayerPro = Instance.new("TextButton")
+local frame_2 = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local SEKMELER = Instance.new("Frame")
+local PlayerPro_2 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local TextBox = Instance.new("TextBox")
+local TextLabel_3 = Instance.new("TextLabel")
+local Frame_8 = Instance.new("Frame")
+local TextBox_2 = Instance.new("TextBox")
+local TextLabel_4 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local SM_2 = Instance.new("Frame")
+local M = Instance.new("ImageLabel")
+local TextLabel_5 = Instance.new("TextLabel")
+local mname = Instance.new("TextLabel")
+local S = Instance.new("ImageLabel")
+local TextLabel_6 = Instance.new("TextLabel")
+local sname = Instance.new("TextLabel")
+
+--Properties:
+
+ESKID.Name = "ESKID"
+ESKID.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ESKID.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ESKID.ResetOnSpawn = false
+
+Frame.Parent = ESKID
+Frame.AnchorPoint = Vector2.new(0.5, 0.5)
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 1.000
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.5, 0, 0.5, 0)
+Frame.Size = UDim2.new(0.360365331, 0, 0.367612302, 0)
+
+Frame_2.Parent = Frame
+Frame_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-0.000293741759, 0, 0.214789927, 0)
+Frame_2.Size = UDim2.new(1.00029373, 0, 0.759537399, 0)
+
+UICorner.CornerRadius = UDim.new(0.100000001, 0)
+UICorner.Parent = Frame_2
+
+Frame_3.Parent = Frame
+Frame_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-0.000293741759, 0, 0.173693985, 0)
+Frame_3.Size = UDim2.new(1.00029373, 0, 0.112277113, 0)
+
+Frame_4.Parent = Frame
+Frame_4.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+Frame_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(-0.000293767313, 0, 0.0195845086, 0)
+Frame_4.Size = UDim2.new(1.00029385, 0, 0.195205301, 0)
+
+UICorner_2.CornerRadius = UDim.new(0.25, 0)
+UICorner_2.Parent = Frame_4
+
+Frame_5.Parent = Frame_4
+Frame_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_5.BackgroundTransparency = 1.000
+Frame_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(4.02488318e-08, 0, 0, 0)
+Frame_5.Size = UDim2.new(0.999706268, 0, 0.761445165, 0)
+
+TextLabel.Parent = Frame_5
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.559359014, 0, 0.338636398, 0)
+TextLabel.Size = UDim2.new(0.414248019, 0, 0.318181813, 0)
+TextLabel.Font = Enum.Font.Unknown
+TextLabel.Text = "(K to hide GUI)"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Right
+
+TextLabel_2.Parent = Frame_5
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.0448471494, 0, 0.225000039, 0)
+TextLabel_2.Size = UDim2.new(0.485488117, 0, 0.545454562, 0)
+TextLabel_2.Font = Enum.Font.Unknown
+TextLabel_2.Text = "ESKID GUI - MM2"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_6.Parent = Frame_4
+Frame_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(-3.16842197e-08, 0, 0.774187148, 0)
+Frame_6.Size = UDim2.new(1.00000012, 0, 0.225813255, 0)
+
+sekmebuttons.Name = "sekmebuttons"
+sekmebuttons.Parent = Frame
+sekmebuttons.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+sekmebuttons.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sekmebuttons.BorderSizePixel = 0
+sekmebuttons.Position = UDim2.new(-3.18125863e-08, 0, 0.17369394, 0)
+sekmebuttons.Size = UDim2.new(0.227732614, 0, 0.801369905, 0)
+sekmebuttons.ZIndex = 2
+
+UICorner_3.CornerRadius = UDim.new(0.150000006, 0)
+UICorner_3.Parent = sekmebuttons
+
+frame.Name = "frame"
+frame.Parent = sekmebuttons
+frame.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+frame.BorderSizePixel = 0
+frame.Position = UDim2.new(-0.00116241456, 0, -0.0032349932, 0)
+frame.Size = UDim2.new(1, 0, 0.145299152, 0)
+
+List.Name = "List"
+List.Parent = sekmebuttons
+List.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+List.BackgroundTransparency = 1.000
+List.BorderColor3 = Color3.fromRGB(0, 0, 0)
+List.BorderSizePixel = 0
+List.Size = UDim2.new(1, 0, 1, 0)
+
+UIListLayout.Parent = List
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+
+SM.Name = "SM"
+SM.Parent = List
+SM.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+SM.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SM.BorderSizePixel = 0
+SM.Size = UDim2.new(1, 0, 0.140000001, 0)
+SM.Font = Enum.Font.SourceSansBold
+SM.Text = "Sheriff & Murder"
+SM.TextColor3 = Color3.fromRGB(255, 255, 255)
+SM.TextScaled = true
+SM.TextSize = 14.000
+SM.TextWrapped = true
+
+PlayerPro.Name = "PlayerPro"
+PlayerPro.Parent = List
+PlayerPro.BackgroundColor3 = Color3.fromRGB(112, 112, 112)
+PlayerPro.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerPro.BorderSizePixel = 0
+PlayerPro.Size = UDim2.new(1, 0, 0.140000001, 0)
+PlayerPro.Font = Enum.Font.SourceSansBold
+PlayerPro.Text = "Universal Scripts"
+PlayerPro.TextColor3 = Color3.fromRGB(255, 255, 255)
+PlayerPro.TextScaled = true
+PlayerPro.TextSize = 14.000
+PlayerPro.TextWrapped = true
+
+frame_2.Name = "frame"
+frame_2.Parent = Frame
+frame_2.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+frame_2.BorderSizePixel = 0
+frame_2.Position = UDim2.new(0.174069449, 0, 0.173694089, 0)
+frame_2.Size = UDim2.new(0.0533984005, 0, 0.801369846, 0)
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 1.548
+
+SEKMELER.Name = "SEKMELER"
+SEKMELER.Parent = Frame
+SEKMELER.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SEKMELER.BackgroundTransparency = 1.000
+SEKMELER.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SEKMELER.BorderSizePixel = 0
+SEKMELER.Size = UDim2.new(1, 0, 1, 0)
+
+PlayerPro_2.Name = "PlayerPro"
+PlayerPro_2.Parent = SEKMELER
+PlayerPro_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerPro_2.BackgroundTransparency = 1.000
+PlayerPro_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerPro_2.BorderSizePixel = 0
+PlayerPro_2.Position = UDim2.new(0.22725071, 0, 0.180064306, 0)
+PlayerPro_2.Size = UDim2.new(0.771401823, 0, 0.794212222, 0)
+PlayerPro_2.Visible = false
+
+Frame_7.Parent = PlayerPro_2
+Frame_7.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+Frame_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(0.0378377959, 0, 0.0404858291, 0)
+Frame_7.Size = UDim2.new(0.929313779, 0, 0.194331989, 0)
+
+TextBox.Parent = Frame_7
+TextBox.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextBox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.BorderSizePixel = 0
+TextBox.Position = UDim2.new(0.53221488, 0, 0, 0)
+TextBox.Size = UDim2.new(0.467785239, 0, 1, 0)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.Text = "16"
+TextBox.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.TextScaled = true
+TextBox.TextSize = 14.000
+TextBox.TextWrapped = true
+
+TextLabel_3.Parent = Frame_7
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.023266267, 0, 0.0965754166, 0)
+TextLabel_3.Size = UDim2.new(0.508948565, 0, 0.791666687, 0)
+TextLabel_3.Font = Enum.Font.SourceSansBold
+TextLabel_3.Text = "WalkSpeed"
+TextLabel_3.TextColor3 = Color3.fromRGB(54, 54, 54)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+TextLabel_3.TextXAlignment = Enum.TextXAlignment.Left
+
+Frame_8.Parent = PlayerPro_2
+Frame_8.BackgroundColor3 = Color3.fromRGB(226, 226, 226)
+Frame_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(0.0378378108, 0, 0.271255046, 0)
+Frame_8.Size = UDim2.new(0.929313779, 0, 0.194331989, 0)
+Frame_8.ZIndex = 2
+
+TextBox_2.Parent = Frame_8
+TextBox_2.BackgroundColor3 = Color3.fromRGB(99, 99, 99)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.53221488, 0, 0, 0)
+TextBox_2.Size = UDim2.new(0.467785239, 0, 1, 0)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.Text = "50"
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+TextLabel_4.Parent = Frame_8
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.023266267, 0, 0.0965754166, 0)
+TextLabel_4.Size = UDim2.new(0.508948565, 0, 0.791666687, 0)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "JumpPower"
+TextLabel_4.TextColor3 = Color3.fromRGB(54, 54, 54)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
+
+TextButton.Parent = PlayerPro_2
+TextButton.BackgroundColor3 = Color3.fromRGB(93, 93, 93)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.0358901508, 0, 0.498134166, 0)
+TextButton.Size = UDim2.new(0.930383146, 0, 0.207555905, 0)
+TextButton.Font = Enum.Font.Arial
+TextButton.Text = "Infinite Yield"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+UIAspectRatioConstraint_2.Parent = SEKMELER
+UIAspectRatioConstraint_2.AspectRatio = 1.548
+
+SM_2.Name = "SM"
+SM_2.Parent = SEKMELER
+SM_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SM_2.BackgroundTransparency = 1.000
+SM_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SM_2.BorderSizePixel = 0
+SM_2.Position = UDim2.new(0.22725071, 0, 0.180064306, 0)
+SM_2.Size = UDim2.new(0.771401823, 0, 0.794212222, 0)
+
+M.Name = "M"
+M.Parent = SM_2
+M.BackgroundColor3 = Color3.fromRGB(158, 60, 60)
+M.BorderColor3 = Color3.fromRGB(0, 0, 0)
+M.BorderSizePixel = 0
+M.Position = UDim2.new(0.0352144651, 0, 0.0407295339, 0)
+M.Size = UDim2.new(0.354853868, 0, 0.533559322, 0)
+M.ZIndex = 2
+M.Image = "rbxassetid://13930139982"
+
+TextLabel_5.Parent = M
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_5.Size = UDim2.new(1, 0, 0.19847329, 0)
+TextLabel_5.Font = Enum.Font.SourceSansBold
+TextLabel_5.Text = "Murder"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 0, 0)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14.000
+TextLabel_5.TextWrapped = true
+
+mname.Name = "mname"
+mname.Parent = M
+mname.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+mname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mname.BorderSizePixel = 0
+mname.Position = UDim2.new(0, 0, 1.19847333, 0)
+mname.Size = UDim2.new(1, 0, 0.458015263, 0)
+mname.Font = Enum.Font.SourceSansBold
+mname.Text = "@Roblox"
+mname.TextColor3 = Color3.fromRGB(255, 0, 0)
+mname.TextScaled = true
+mname.TextSize = 14.000
+mname.TextWrapped = true
+
+S.Name = "S"
+S.Parent = SM_2
+S.BackgroundColor3 = Color3.fromRGB(0, 105, 158)
+S.BorderColor3 = Color3.fromRGB(0, 0, 0)
+S.BorderSizePixel = 0
+S.Position = UDim2.new(0.595937729, 0, 0.0407295339, 0)
+S.Size = UDim2.new(0.354853868, 0, 0.533559322, 0)
+S.ZIndex = 2
+S.Image = "rbxassetid://13930139982"
+
+TextLabel_6.Parent = S
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, 1, 0)
+TextLabel_6.Size = UDim2.new(1, 0, 0.19847329, 0)
+TextLabel_6.Font = Enum.Font.SourceSansBold
+TextLabel_6.Text = "Sheriff"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 170, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 14.000
+TextLabel_6.TextWrapped = true
+
+sname.Name = "sname"
+sname.Parent = S
+sname.BackgroundColor3 = Color3.fromRGB(211, 211, 211)
+sname.BorderColor3 = Color3.fromRGB(0, 0, 0)
+sname.BorderSizePixel = 0
+sname.Position = UDim2.new(0, 0, 1.19847333, 0)
+sname.Size = UDim2.new(1, 0, 0.458015263, 0)
+sname.Font = Enum.Font.SourceSansBold
+sname.Text = "@Roblox"
+sname.TextColor3 = Color3.fromRGB(0, 170, 255)
+sname.TextScaled = true
+sname.TextSize = 14.000
+sname.TextWrapped = true
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+	Title = "ESKID - MM2",
+	Text = "made by tenceren.py on discord",
+	Icon = "rbxassetid://12288285130"
+})
+
+local function BZWKY_fake_script() -- List.LocalScript 
+	local script = Instance.new('LocalScript', List)
+
+	for _,bts:TextButton in script.Parent:GetChildren() do
+		if bts:IsA("TextButton") or bts:IsA("ImageButton") then
+			bts.MouseButton1Up:Connect(function()
+				for i,v in pairs(script.Parent.Parent.Parent.SEKMELER:GetChildren()) do
+					if v:IsA("Frame") then
+						if v.Name == bts.Name then
+							v.Visible = true
+						elseif v.Name ~= bts.Name then
+							v.Visible = false
+						end
+					end
+				end
+			end)
+		end
+	end
+end
+coroutine.wrap(BZWKY_fake_script)()
+local function AHRDPPL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	--// Services
+	local Players = game:GetService('Players')
+	local UIS = game:GetService("UserInputService")
+	
+	--// Variables
+	local UI = script.Parent
+	
+	local Player = Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	
+	local Hovered = false
+	local Holding = false
+	local MoveCon = nil
+	
+	local InitialX, InitialY, UIInitialPos
+	
+	--// Functions
+	
+	local function Drag()
+		if Holding == false then MoveCon:Disconnect(); return end
+		local distanceMovedX = InitialX - Mouse.X
+		local distanceMovedY = InitialY - Mouse.Y
+	
+		UI.Position = UIInitialPos - UDim2.new(0, distanceMovedX, 0, distanceMovedY)
+	end
+	
+	--// Connections
+	
+	UI.MouseEnter:Connect(function()
+		Hovered = true
+	end)
+	
+	UI.MouseLeave:Connect(function()
+		Hovered = false
+	end)
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = Hovered
+			if Holding then
+				InitialX, InitialY = Mouse.X, Mouse.Y
+				UIInitialPos = UI.Position
+	
+				MoveCon = Mouse.Move:Connect(Drag)
+			end
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = false
+		end
+	end)
+end
+coroutine.wrap(AHRDPPL_fake_script)()
+local function BTMXZPA_fake_script() -- TextBox.LocalScript 
+	local script = Instance.new('LocalScript', TextBox)
+
+	local plr = game.Players.LocalPlayer
+	
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		script.Parent.Text = script.Parent.Text:gsub('%D+', '');
+	end)
+	
+	script.Parent.FocusLost:Connect(function()
+		if tonumber(script.Parent.Text) then
+			local char = plr.Character
+			if char then
+				if char:FindFirstChild("Humanoid") then
+					local hum = char:FindFirstChild("Humanoid")
+					hum.WalkSpeed = tonumber(script.Parent.Text)
+				end
+			end
+		else
+			local char = plr.Character
+			script.Parent.Text = 16
+			if char then
+				if char:FindFirstChild("Humanoid") then
+					local hum = char:FindFirstChild("Humanoid")
+					hum.WalkSpeed = tonumber(script.Parent.Text)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(BTMXZPA_fake_script)()
+local function RRIXLFO_fake_script() -- TextBox_2.LocalScript 
+	local script = Instance.new('LocalScript', TextBox_2)
+
+	local plr = game.Players.LocalPlayer
+	
+	script.Parent:GetPropertyChangedSignal("Text"):Connect(function()
+		script.Parent.Text = script.Parent.Text:gsub('%D+', '');
+	end)
+	
+	script.Parent.FocusLost:Connect(function()
+		if tonumber(script.Parent.Text) then
+			local char = plr.Character
+			if char then
+				if char:FindFirstChild("Humanoid") then
+					local hum = char:FindFirstChild("Humanoid")
+					hum.UseJumpPower = true
+					hum.JumpPower = tonumber(script.Parent.Text)
+				end
+			end
+		else
+			local char = plr.Character
+			script.Parent.Text = 50
+			if char then
+				if char:FindFirstChild("Humanoid") then
+					local hum = char:FindFirstChild("Humanoid")
+					hum.UseJumpPower = true
+					hum.JumpPower = tonumber(script.Parent.Text)
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(RRIXLFO_fake_script)()
+local function EZAU_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Up:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+	end)
+end
+coroutine.wrap(EZAU_fake_script)()
+local function LDYKG_fake_script() -- SM_2.LocalScript 
+	local script = Instance.new('LocalScript', SM_2)
+
+	local function detect()
+		local murd
+		local sherife
+		for _,player:Player in pairs(game:GetService("Players"):GetChildren()) do
+			if player.Character then
+				if player.Backpack:FindFirstChild("Gun") or player.Character:FindFirstChild("Gun") then
+					sherife = player
+					script.Parent.S.Image = game.Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.AvatarBust, Enum.ThumbnailSize.Size420x420)
+					script.Parent.S.sname.Text = "@"..player.Name
+				elseif player.Backpack:FindFirstChild("Knife") or player.Character:FindFirstChild("Knife") then
+					murd = player
+					script.Parent.M.Image = game.Players:GetUserThumbnailAsync(player.UserId, Enum.ThumbnailType.AvatarBust, Enum.ThumbnailSize.Size420x420)
+					script.Parent.M.mname.Text = "@"..player.Name
+				end
+			end
+		end
+		if murd and sherife then
+		elseif not murd then
+			script.Parent.M.mname.Text = "DIED"
+		elseif not sherife then
+			script.Parent.S.sname.Text = "DIED"
+		end
+	end
+	
+	game:GetService("RunService").Stepped:Connect(function()
+		detect()
+	end)
+end
+coroutine.wrap(LDYKG_fake_script)()
+local function ETDAA_fake_script() -- ESKID.LocalScript 
+	local script = Instance.new('LocalScript', ESKID)
+
+	local uis = game:GetService("UserInputService")
+	
+	uis.InputBegan:Connect(function(key)
+		if key.KeyCode == Enum.KeyCode.K  then
+			if script.Parent.Enabled == true then
+				script.Parent.Enabled = false
+			else
+				script.Parent.Enabled = true
+			end
+		end
+	end)
+end
+coroutine.wrap(ETDAA_fake_script)()
